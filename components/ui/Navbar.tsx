@@ -9,6 +9,7 @@ export const Navbar = () => {
         alt="ícono de la app"
         width={70}
         height={70}
+        priority
       />
       <span className="first-letter:text-2xl text-xl align-middle">
         Pokémon
