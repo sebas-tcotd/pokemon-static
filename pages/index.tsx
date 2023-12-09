@@ -1,7 +1,7 @@
 import pokeApi from "@/api/pokemon-api";
 import { MainLayout } from "@/components/layouts";
+import { PokemonCard } from "@/components/pokemon";
 import { PokemonListResponse, SmallPokemon } from "@/interfaces";
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
 import { NextPage } from "next";
 import { Inter } from "next/font/google";
 
@@ -16,22 +16,7 @@ const Home: NextPage<Props> = ({ pokemons }) => {
     <MainLayout title="Listado de Pokémons">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {pokemons.map((pokemon) => (
-          <Card shadow="sm" key={pokemon.id}>
-            <CardBody className="overflow-visible">
-              <Image
-                src={pokemon.img}
-                alt={pokemon.name}
-                
-                width={'100%'}
-                className="mx-auto h-16 md:h-24 lg:h-36 lg:p-2"
-              />
-            </CardBody>
-            <CardFooter className="text-small justify-between">
-              <span className="font-bold first-letter:capitalize">{pokemon.name}</span>
-              <p className="text-default-500">#{pokemon.id}</p>
-              
-              </CardFooter>
-          </Card>
+          <PokemonCard key={pokemon.id} pokemon={pokemon} />
         ))}
       </div>
     </MainLayout>

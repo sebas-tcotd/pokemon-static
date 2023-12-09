@@ -21,7 +21,7 @@ export const PokemonCard: FC<PokemonCardProps> = ({ pokemon }) => {
         <Image
           radius="lg"
           width="100%"
-          className="h-24 bg-cover"
+          className="h-16 md:h-24 lg:h-36 lg:p-2 bg-cover"
           alt={pokemon.name}
           src={pokemon.img}
         />
