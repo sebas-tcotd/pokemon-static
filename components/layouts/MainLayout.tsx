@@ -22,7 +22,7 @@ export const MainLayout: FC<PropsWithChildren<MainLayoutProps>> = ({
 
       <Navbar />
 
-      <main className="py-0 px-5">{children}</main>
+      <main className="py-4 px-5">{children}</main>
     </>
   );
 };
