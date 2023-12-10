@@ -7,6 +7,8 @@ interface MainLayoutProps {
   title?: string;
 }
 
+const origin = typeof window !== "undefined" ? window.location.origin : "";
+
 export const MainLayout: FC<PropsWithChildren<MainLayoutProps>> = ({
   children,
   title,
@@ -21,6 +23,13 @@ export const MainLayout: FC<PropsWithChildren<MainLayoutProps>> = ({
           content={`Información sobre el pokémon ${title}`}
         />
         <meta name="keywords" content={`${title}, pokédex, pokémon`} />
+
+        <meta property="og:title" content={`Información sobre ${title}`} />
+        <meta
+          property="og:description"
+          content={`Chequea la información del pokémon ${title}`}
+        />
+        <meta property="og:image" content={`${origin}/img/banner.png`} />
       </Head>
 
       <Navbar />
