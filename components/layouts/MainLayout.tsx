@@ -29,7 +29,8 @@ export const MainLayout: FC<PropsWithChildren<MainLayoutProps>> = ({
           property="og:description"
           content={`Chequea la información del pokémon ${title}`}
         />
-        <meta property="og:image" content={`${origin}/img/banner.png`} />
+        <meta property="og:image" itemProp="image" content={`${origin}/img/banner.png`} />
+        <meta property="og:type" content="website" />
       </Head>
 
       <Navbar />
