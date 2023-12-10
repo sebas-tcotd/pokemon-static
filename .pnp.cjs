@@ -28,11 +28,13 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@nextui-org/react", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:2.2.9"],\
           ["@nextui-org/theme", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:2.1.17"],\
+          ["@types/canvas-confetti", "npm:1.6.4"],\
           ["@types/node", "npm:20.10.4"],\
           ["@types/react", "npm:18.2.42"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["autoprefixer", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:10.4.16"],\
           ["axios", "npm:1.6.2"],\
+          ["canvas-confetti", "npm:1.9.2"],\
           ["eslint", "npm:8.55.0"],\
           ["eslint-config-next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:14.0.1"],\
           ["framer-motion", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:10.16.15"],\
@@ -4944,6 +4946,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/canvas-confetti", [\
+      ["npm:1.6.4", {\
+        "packageLocation": "../../../.yarn/berry/cache/@types-canvas-confetti-npm-1.6.4-270404d6fb-10c0.zip/node_modules/@types/canvas-confetti/",\
+        "packageDependencies": [\
+          ["@types/canvas-confetti", "npm:1.6.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/json5", [\
       ["npm:0.0.29", {\
         "packageLocation": "../../../.yarn/berry/cache/@types-json5-npm-0.0.29-f63a7916bd-10c0.zip/node_modules/@types/json5/",\
@@ -5584,6 +5595,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../.yarn/berry/cache/caniuse-lite-npm-1.0.30001566-4f87887103-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001566"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["canvas-confetti", [\
+      ["npm:1.9.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/canvas-confetti-npm-1.9.2-cf1b7e3f3e-10c0.zip/node_modules/canvas-confetti/",\
+        "packageDependencies": [\
+          ["canvas-confetti", "npm:1.9.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8401,11 +8421,13 @@ const RAW_RUNTIME_STATE =
           ["pokemon-static", "workspace:."],\
           ["@nextui-org/react", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:2.2.9"],\
           ["@nextui-org/theme", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:2.1.17"],\
+          ["@types/canvas-confetti", "npm:1.6.4"],\
           ["@types/node", "npm:20.10.4"],\
           ["@types/react", "npm:18.2.42"],\
           ["@types/react-dom", "npm:18.2.17"],\
           ["autoprefixer", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:10.4.16"],\
           ["axios", "npm:1.6.2"],\
+          ["canvas-confetti", "npm:1.9.2"],\
           ["eslint", "npm:8.55.0"],\
           ["eslint-config-next", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:14.0.1"],\
           ["framer-motion", "virtual:71a9ed0cc6ed855c0d92c08e2856490cfa26051fc92c4d79d171936a18727ea7d2fa340e12389084761ba863ebcc1632ea1611ff70a5517617030fea950056fd#npm:10.16.15"],\
